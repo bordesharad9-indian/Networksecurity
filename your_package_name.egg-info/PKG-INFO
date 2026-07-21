@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: your_package_name
+Version: 0.0.1
+Author: sharadborde
+Author-email: bordesharad9@gamil.com
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pymongo
+Requires-Dist: certifi
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
