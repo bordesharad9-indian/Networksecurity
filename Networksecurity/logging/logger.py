@@ -1,6 +1,7 @@
 import logging
 import os
 from datetime import datetime
+# from Networksecurity.logging.logger import logger
 
 log_file=f"{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
 logs_path=os.path.join(os.getcwd(),"logs",log_file)
@@ -15,3 +16,4 @@ logging.basicConfig(
      format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
 )
+logger = logging.getLogger(__name__)

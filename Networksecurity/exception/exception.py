@@ -19,11 +19,11 @@ class NetworksecurityException(Exception):
         )
         
 
-if __name__=="__main__":
-    try:
-        logger.logging.info("Attempting to divide by zero")
-        a=1/0
-        print(a)
+# if __name__=="__main__":
+#     try:
+#         logger.logging.info("Attempting to divide by zero")
+#         a=1/0
+#         print(a)
 
-    except Exception as e:
-        raise NetworksecurityException(e,sys)
+#     except Exception as e:
+#         raise NetworksecurityException(e,sys)
