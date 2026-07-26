@@ -4,7 +4,7 @@ import logging
 import os
 from datetime import datetime
 
-class NetworksecurityException(Exception):
+class NetworkSecurityException(Exception):
     def __init__(self,error_message,error_detail:sys):
         self.error_message=error_message
         self.error_detail=error_detail
