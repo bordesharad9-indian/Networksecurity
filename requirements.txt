@@ -3,5 +3,13 @@ pandas
 numpy
 pymongo
 certifi
-
-#  -e .
+# -e .
+pymongo[srv]
+sys
+os
+scikit-learn
+yaml
+scipy
+pickel
+dill
+pyaml
